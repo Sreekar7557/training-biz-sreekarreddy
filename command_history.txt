@@ -83,3 +83,5 @@ cd training-biz-sreekarreddy/
 ls -al
 ./log_and_push.sh 
 ls -sree
+./log_and_push.sh 
+crontab -e
