@@ -4,7 +4,7 @@
 cd  /home/ec2-user/training-biz-sreekarreddy
 
 # Log the history of commands to a file
-echo history >> /home/ec2-user/training-biz-sreekarreddy/ command_history.txt
+history > /home/ec2-user/training-biz-sreekarreddy/command_history.txt
 
 # Add the file to git
 git add .
