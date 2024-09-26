@@ -81,3 +81,5 @@ git clone git@github.com:Sreekar7557/training-biz-sreekarreddy.git
 ls -al
 cd training-biz-sreekarreddy/
 ls -al
+./log_and_push.sh 
+ls -sree
