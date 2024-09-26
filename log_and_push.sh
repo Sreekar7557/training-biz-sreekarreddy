@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git status
+
 # Navigate to the repository directory
 cd  /home/ec2-user/training-biz-sreekarreddy
 
