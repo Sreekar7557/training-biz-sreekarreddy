@@ -1,0 +1,124 @@
+ls
+sudo yum install java-1.8.0-openjdk -y
+sudo yum install wget -y
+wget https://repo.almalinux.org/almalinux/8/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm 
+wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+ls
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+sudo vi ~/.bash_profile
+source ~/.bash_profile
+sudo vi $ORACLE_HOME/cv/admin/cvu_config
+sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/initXE.ora
+sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/spfileXE.ora
+sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo swapon --show
+free -h
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+sudo /etc/init.d/oracle-xe-21c configure
+source ~/.bash_profile
+sudo service oracle-xe-21c start
+sqlplus sys as sysdba
+ls
+ imp classicmodels/classicmodels123 FULL=y File=./classicmodels.dmp
+sqlplus classicmodels/classicmodels123
+history
+git
+sudo yum install git
+git clone https://github.com/Sreekar7557/training-biz-sreekarreddy.git
+ls 
+cd training-biz-sreekarreddy/
+ls
+pwd
+touch log_and_push.sh
+vi log_and_push.sh 
+chmod +x log_and_push.sh
+./log_and_push.sh
+crontab -e
+sudo grep CRON /var/log/syslog
+la
+ls
+vi log_and_push.sh 
+pwd
+vi log_and_push.sh 
+./log_and_push.sh 
+sudo grep CRON /var/log/syslog
+ssh-keygen -t rsa -b 4096 -C "sreekarreddy7557@gmail.com"
+[200~eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+[200~cd ~/commit-history-task-bizz-training-period
+cd ~/training-biz-sreekarreddy
+git remote set-url origin git@github.com:ajinkyadawange31045/training-biz-sreekarreddy.git
+git remote set-url origin git@github.com:Sreekar7557/training-biz-sreekarreddy.git
+git remote -v
+ssh -T git@github.com
+./log_and_push.sh 
+ls
+vi log_and_push.sh 
+cat command_history.txt 
+history > command_history.txt 
+cat command_history.txt 
+ls
+./log_and_push.sh 
+vi log_and_push.sh 
+ls
+git add command_history.txt 
+CAT log_and_push.sh 
+cat log_and_push.sh 
+git commit -m "$(date +'%Y-%m-%d %H:%M:%S')"
+git push -u origin main
+git commit -m "$(date +'%Y-%m-%d %H:%M:%S')"
+git branch --unset-upstream
+git push --set-upstream origin main
+git remote -v
+ssh -T git@github.com
+./log_and_push.sh 
+git status
+git add .
+git commit -m "adding files"
+git push -u origin main
+cat command_history.txt 
+history > command_history.txt 
+cat command_history.txt 
+git add command_history.txt 
+git status
+git commit -m "$(date +'%Y-%m-%d %H:%M:%S')"
+git push -u origin main
+cron -e
+crontab -e
+ls
+ls -l
+chmod 777 log_and_push.sh 
+./log_and_push.sh 
+cat log_and_push.sh 
+ls
+pwd
+vi log_and_push.sh 
+./log_and_push.sh 
+vi log_and_push.sh 
+./log_and_push.sh 
+history > command_history.txt 
+./log_and_push.sh 
+history
+asdf
+asf
+d
+history
+./log_and_push.sh 
+crontab -e
+./log_and_push.sh 
+sudo service restart git
+./log_and_push.sh 
+d
+vi log_and_push.sh 
+./log_and_push.sh 
+ git config --global --edit
+vi log_and_push.sh 
+crontab -e

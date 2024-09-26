@@ -6,7 +6,7 @@ git status
 cd  /home/ec2-user/training-biz-sreekarreddy
 
 # Log the history of commands to a file
-history > /home/ec2-user/training-biz-sreekarreddy/command_history.txt
+cat  ~/.bash_history > /home/ec2-user/training-biz-sreekarreddy/command_history.txt
 
 # Add the file to git
 git add .
