@@ -85,3 +85,5 @@ ls -al
 ls -sree
 ./log_and_push.sh 
 crontab -e
+ls
+cat log_and_push.sh 
