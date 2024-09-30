@@ -133,3 +133,22 @@ cd /ec2-user
 cd ..
 mkdir folder
 cd ..
+cd /home
+exit
+ls
+mkdir folder
+rmdir folder
+ls
+mkdir folder
+ls
+rmdir folder
+ls
+cd ..
+cd
+cd ..
+ls
+cd ..
+ls
+cd
+ls
+sudo su
