@@ -158,3 +158,5 @@ ls
 ls -l
 chmod file.txt
 chmod --help
+chmod 755 file.txt
+ls -l
