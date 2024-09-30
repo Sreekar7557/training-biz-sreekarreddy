@@ -191,3 +191,5 @@ tail -n 1 file.txt
 tail -n 0 file.txt 
 tail -n 10 file.txt 
 head -n 10 file.txt 
+wc file.txt 
+less file.txt 
