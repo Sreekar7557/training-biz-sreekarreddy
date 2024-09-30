@@ -182,3 +182,4 @@ xming
 git
 yum install git
 ls
+ps -ef
