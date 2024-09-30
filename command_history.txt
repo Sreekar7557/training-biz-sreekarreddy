@@ -183,3 +183,11 @@ git
 yum install git
 ls
 ps -ef
+tail file.txt 
+head file.txt 
+tail -n file.txt 
+tail -n 2 file.txt 
+tail -n 1 file.txt 
+tail -n 0 file.txt 
+tail -n 10 file.txt 
+head -n 10 file.txt 
