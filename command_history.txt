@@ -160,3 +160,6 @@ chmod file.txt
 chmod --help
 chmod 755 file.txt
 ls -l
+vi file.txt
+cat file.txt 
+sed 's/old/new/g' file.txt
