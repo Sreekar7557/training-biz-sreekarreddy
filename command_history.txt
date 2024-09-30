@@ -113,3 +113,6 @@ touch file.txt
 ls -l
 ls -l | grep "file.txt"
 grep file.txt
+grep "file.txt"
+pscp user@host:/remote/file.txt local/file.txt
+exit
