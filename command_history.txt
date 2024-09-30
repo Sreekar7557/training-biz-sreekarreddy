@@ -106,3 +106,9 @@ vi ~/.bashrc
 vi log_and_push.sh 
 history
 cat ~/.bash_history -n
+ls -l | grep "file.txt"
+cat file1.txt
+ls
+touch file.txt
+ls -l
+ls -l | grep "file.txt"
