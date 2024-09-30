@@ -163,3 +163,6 @@ ls -l
 vi file.txt
 cat file.txt 
 sed 's/old/new/g' file.txt
+free -g
+du -h
+du -h /var/log
