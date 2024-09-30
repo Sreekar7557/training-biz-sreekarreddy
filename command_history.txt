@@ -116,3 +116,6 @@ grep file.txt
 grep "file.txt"
 pscp user@host:/remote/file.txt local/file.txt
 exit
+vi file.txt
+vi file1.txt
+ls
