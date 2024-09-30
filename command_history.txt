@@ -166,3 +166,5 @@ sed 's/old/new/g' file.txt
 free -g
 du -h
 du -h /var/log
+df -ah
+top
