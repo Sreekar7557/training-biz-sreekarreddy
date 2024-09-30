@@ -178,3 +178,4 @@ gunzip archive.tar.gz
 ls
 rmdir tar
 ls
+xming
