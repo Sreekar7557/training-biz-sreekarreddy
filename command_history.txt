@@ -87,3 +87,22 @@ ls -sree
 crontab -e
 ls
 cat log_and_push.sh 
+cat command_history.txt 
+ls
+cd training-biz-sreekarreddy/
+ls
+crontab -e
+vi log_and_push.sh 
+./log_and_push.sh 
+vi log_and_push.sh 
+ls ~/.bash_history 
+cat ~/.bash_history 
+cat ~/.bash_history -n
+vi log_and_push.sh 
+ls
+vi ~/.bashrc 
+./l
+./log_and_push.sh 
+vi log_and_push.sh 
+history
+cat ~/.bash_history -n
