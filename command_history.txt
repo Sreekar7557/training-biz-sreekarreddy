@@ -170,3 +170,11 @@ df -ah
 top
 uname -a
 hostname
+tar -czvf archive.tar.gz folder
+gunzip archive.tar.gz
+mkdir tar
+tar -czvf archive.tar.gz folder
+gunzip archive.tar.gz
+ls
+rmdir tar
+ls
