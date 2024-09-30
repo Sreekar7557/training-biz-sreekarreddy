@@ -168,3 +168,5 @@ du -h
 du -h /var/log
 df -ah
 top
+uname -a
+hostname
