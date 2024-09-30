@@ -119,3 +119,17 @@ exit
 vi file.txt
 vi file1.txt
 ls
+cd ..
+cd /home
+ls
+sudo
+sudo su
+cd ..
+ls
+exit
+cd /home
+ls
+cd /ec2-user
+cd ..
+mkdir folder
+cd ..
