@@ -152,3 +152,9 @@ ls
 cd
 ls
 sudo su
+cat file.txt
+touch file.txt
+ls
+ls -l
+chmod file.txt
+chmod --help
