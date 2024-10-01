@@ -193,3 +193,5 @@ tail -n 10 file.txt
 head -n 10 file.txt 
 wc file.txt 
 less file.txt 
+grep "you" file.txt 
+grep "old" file.txt 
