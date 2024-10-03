@@ -223,3 +223,8 @@ cd .ssh
 vi authorized_keys 
 cd
 exit
+rm sreekar
+ls
+rm sreekar.pub
+ls
+cd .ssh
