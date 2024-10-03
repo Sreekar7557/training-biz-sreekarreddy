@@ -201,3 +201,11 @@ sudo su
 exit
 sudo su
 ssh -keygen -t rsa -C”rsa_key”
+ssh -keygen -t rsa -C ”rsa_key”
+ssh - keygen -t rsa -C ”rsa_key”
+ssh-keygen -t rsa -C ”rsa_key”
+ls
+cat sreekar
+ls
+cd .ssh
+ls
