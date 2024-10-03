@@ -214,3 +214,5 @@ exit
 exit
 su - sreekar
 exit
+ls
+cd .ssh
