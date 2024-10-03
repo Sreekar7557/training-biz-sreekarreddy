@@ -216,3 +216,10 @@ su - sreekar
 exit
 ls
 cd .ssh
+vi authorized_keys 
+cd
+cat sreekar.pub
+cd .ssh
+vi authorized_keys 
+cd
+exit
