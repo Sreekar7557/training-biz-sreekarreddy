@@ -196,3 +196,4 @@ less file.txt
 grep "you" file.txt 
 grep "old" file.txt 
 ls
+ssh ec2-user@13.48.104.245
