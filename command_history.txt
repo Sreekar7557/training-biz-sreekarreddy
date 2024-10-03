@@ -209,3 +209,8 @@ cat sreekar
 ls
 cd .ssh
 ls
+vi authorized_keys 
+exit
+exit
+su - sreekar
+exit
