@@ -200,3 +200,4 @@ ssh ec2-user@13.48.104.245
 sudo su
 exit
 sudo su
+ssh -keygen -t rsa -C”rsa_key”
