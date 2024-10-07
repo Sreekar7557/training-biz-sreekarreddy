@@ -232,3 +232,5 @@ ls
 cd authorized_keys 
 vi authorized_keys 
 exit
+sudo yum update -y
+sudo yum install python3 -y
