@@ -244,3 +244,4 @@ python3 sendmail.py
 crontab -e
 vi sendmail.py
 cat sendmail.py 
+crontab -e
