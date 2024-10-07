@@ -255,3 +255,7 @@ sudo vi /etc/mail/sendmail.mc
 sudo vi /etc/mail/authinfo
 sudo systemctl restart sendmail
 echo "test" | sendmail "sreekar.karedla@bizacuity.com"
+sudo yum install cyrus-sasl-plain
+echo "test" | sendmail "sreekar.karedla@bizacuity.com"
+sudo vi info.sh
+crontab -e
