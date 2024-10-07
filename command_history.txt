@@ -259,3 +259,14 @@ sudo yum install cyrus-sasl-plain
 echo "test" | sendmail "sreekar.karedla@bizacuity.com"
 sudo vi info.sh
 crontab -e
+sudo vi info.sh
+crontab -e
+sudo vi info.sh
+crontab -e
+crontab -l
+sudo systemctl restart sendmail
+sudo vi info.sh
+sudo systemctl restart sendmail
+crontab -l
+crontab -e
+sudo vi info.sh
