@@ -228,3 +228,7 @@ ls
 rm sreekar.pub
 ls
 cd .ssh
+ls
+cd authorized_keys 
+vi authorized_keys 
+exit
