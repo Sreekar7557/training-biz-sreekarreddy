@@ -239,3 +239,8 @@ sudo yum install python3-pip -y
 pip3 install psutil
 vi sendmail.py
 python3 sendmail.py
+vi sendmail.py
+python3 sendmail.py
+crontab -e
+vi sendmail.py
+cat sendmail.py 
