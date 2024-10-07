@@ -282,3 +282,8 @@ chmod +w etc/mail/authinfo
 sudo vi /etc/mail/authinfo
 sudo vi /etc/mail/sendmail.mc
 sudo systemctl restart sendmail
+sudo systemctl status sendmail
+crontab -e
+crontab -l
+sudo vi /etc/mail/sendmail.mc
+cat info.sh 
