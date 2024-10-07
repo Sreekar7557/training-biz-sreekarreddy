@@ -234,3 +234,8 @@ vi authorized_keys
 exit
 sudo yum update -y
 sudo yum install python3 -y
+python3
+sudo yum install python3-pip -y
+pip3 install psutil
+vi sendmail.py
+python3 sendmail.py
