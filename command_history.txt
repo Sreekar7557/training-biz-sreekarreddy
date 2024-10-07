@@ -270,3 +270,15 @@ sudo systemctl restart sendmail
 crontab -l
 crontab -e
 sudo vi info.sh
+crontab -e
+chmod +x info.sh
+sudo chmod +x info.sh
+./info.sh 
+crontab -e
+sudo yum install cyrus-sasl-plain
+sudo yum install sendmail-cf -y
+sudo vi etc/mail/authinfo
+chmod +w etc/mail/authinfo
+sudo vi /etc/mail/authinfo
+sudo vi /etc/mail/sendmail.mc
+sudo systemctl restart sendmail
