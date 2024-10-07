@@ -245,3 +245,9 @@ crontab -e
 vi sendmail.py
 cat sendmail.py 
 crontab -e
+sudo yum install sendmail -y
+sudo yum install sendmail-cf -y
+systemctl enable sendmail
+sudo systemctl enable sendmail
+sudo systemctl start sendmail
+sudo systemctl status sendmail
