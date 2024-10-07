@@ -251,3 +251,7 @@ systemctl enable sendmail
 sudo systemctl enable sendmail
 sudo systemctl start sendmail
 sudo systemctl status sendmail
+sudo vi /etc/mail/sendmail.mc
+sudo vi /etc/mail/authinfo
+sudo systemctl restart sendmail
+echo "test" | sendmail "sreekar.karedla@bizacuity.com"
