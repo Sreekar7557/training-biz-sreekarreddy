@@ -287,3 +287,12 @@ crontab -e
 crontab -l
 sudo vi /etc/mail/sendmail.mc
 cat info.sh 
+sudo vi /home/ec2-user/mail.sh
+crontab -e
+./mail.sh
+sudo chmod +x mail.sh
+./mail.sh
+crontab -e
+sudo vi /home/ec2-user/mail.sh
+history
+sudo vi /home/ec2-user/mail.sh
