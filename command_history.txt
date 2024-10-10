@@ -297,3 +297,4 @@ sudo vi /home/ec2-user/mail.sh
 history
 sudo vi /home/ec2-user/mail.sh
 crontab -e
+ls
