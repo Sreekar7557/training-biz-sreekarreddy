@@ -343,3 +343,12 @@ ls
 vi mail.sh
 vi info.sh 
 crontab -e
+cat file.txt
+grep file.txt 
+grep "file.txt"
+ls -l  | grep "file.txt"
+ls
+ls -l
+ls -l  | grep "file.txt"
+chmod -x file.txt 
+ls -l  | grep "file.txt"
