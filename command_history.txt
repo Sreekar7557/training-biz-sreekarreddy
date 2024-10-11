@@ -406,3 +406,9 @@ find -type f -name "*.log"
 find -type f -name "*.log" | zip all_files.zip -@
 ls
 cat all_files.zip 
+find -type f -name "*.log" | zip all_files.zip -@
+find -type f -name "*.log" -print | zip all_files.zip -@
+find -type f -name "*.log" -print0 | zip all_files.zip -@
+cat all_files.zip 
+find -type f -name "*.sh"
+find -type f -name "*.sh" -exec chown user:group {} \;
