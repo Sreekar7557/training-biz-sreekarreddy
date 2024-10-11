@@ -315,3 +315,17 @@ cd
 crontab -e
 ls -l
 cat file.txt 
+cd /root
+sudo cd /root
+pwd
+cd ..
+ls -l
+cd ..
+ls
+cd /root
+cd ..
+cd
+cd ..
+cd /
+cd /home
+cd
