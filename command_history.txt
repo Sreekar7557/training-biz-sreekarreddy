@@ -402,3 +402,7 @@ cd
 cd ./backup
 ls
 cd
+find -type f -name "*.log"
+find -type f -name "*.log" | zip all_files.zip -@
+ls
+cat all_files.zip 
