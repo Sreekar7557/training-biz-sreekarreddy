@@ -370,3 +370,9 @@ find -name "*.sh"
 man ls
 pwd
 find -name "*.txt"
+ls -l 
+ls -al
+ls -ah
+ls -l -ah
+find -type f -name "*.txt" size +1M| wc -l
+find -type f -name "*.txt" -size +1M| wc -l
