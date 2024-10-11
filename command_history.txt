@@ -381,3 +381,8 @@ find -type f -name "*.txt"
 find -type f -name "*.txt" -exec ls -lh {} \;
 top
 ps
+ps -u
+ps -u sreekar
+ps -u
+ps -u --sort=%mem
+ps -u --sort=-%mem
