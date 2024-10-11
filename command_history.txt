@@ -376,3 +376,6 @@ ls -ah
 ls -l -ah
 find -type f -name "*.txt" size +1M| wc -l
 find -type f -name "*.txt" -size +1M| wc -l
+find -type f -name "*.txt" -size +1M
+find -type f -name "*.txt"
+find -type f -name "*.txt" -exec ls -lh {} \;
