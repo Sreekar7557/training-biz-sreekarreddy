@@ -309,3 +309,8 @@ getent group
 getent user
 cat /etc/passwd
 pwd
+cd /home
+ls
+cd
+crontab -e
+ls -l
