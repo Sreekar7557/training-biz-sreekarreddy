@@ -314,3 +314,4 @@ ls
 cd
 crontab -e
 ls -l
+cat file.txt 
