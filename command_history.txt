@@ -352,3 +352,17 @@ ls -l
 ls -l  | grep "file.txt"
 chmod -x file.txt 
 ls -l  | grep "file.txt"
+chmod -r file.txt 
+ls -l  | grep "file.txt"
+chmod -w file.txt 
+ls -l  | grep "file.txt"
+chmod 755 file.txt 
+ls -l  | grep "file.txt"
+chmod 400 file.txt 
+ls -l  | grep "file.txt"
+find file.txt 
+find file.txt -l
+ls -l |find file.txt 
+ls -l | find file.txt 
+ls -l | find "file.txt" 
+find "file.txt" -exec ls -lh {} \;
