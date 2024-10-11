@@ -386,3 +386,10 @@ ps -u sreekar
 ps -u
 ps -u --sort=%mem
 ps -u --sort=-%mem
+find -type f
+find -type f -mtime -7
+find -type f | wc -l
+find -type f -mtime -7| wc -l
+mkdir backup
+find -type f -mtime -7 -exec cp {} backup \;
+cd /backup
