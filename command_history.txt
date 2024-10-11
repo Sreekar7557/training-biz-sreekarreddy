@@ -337,3 +337,9 @@ cd
 cd /usr/
 ls
 cd ..
+cd
+sudo vi /home/ec2-user/mail.sh
+ls
+vi mail.sh
+vi info.sh 
+crontab -e
