@@ -367,3 +367,6 @@ ls -l | find file.txt
 ls -l | find "file.txt" 
 find "file.txt" -exec ls -lh {} \;
 find -name "*.sh"
+man ls
+pwd
+find -name "*.txt"
