@@ -329,3 +329,11 @@ cd ..
 cd /
 cd /home
 cd
+cd /
+cat tmp
+cd /bin
+ls
+cd
+cd /usr/
+ls
+cd ..
