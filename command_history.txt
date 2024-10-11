@@ -304,3 +304,8 @@ vi payments.csv
 sudo bash
 ssh ec2-user@51.20.189.26
 exit
+ls
+getent group
+getent user
+cat /etc/passwd
+pwd
