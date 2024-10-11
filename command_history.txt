@@ -393,3 +393,12 @@ find -type f -mtime -7| wc -l
 mkdir backup
 find -type f -mtime -7 -exec cp {} backup \;
 cd /backup
+ls
+cd ./backup
+cd
+cd /home
+cd ./backup
+cd
+cd ./backup
+ls
+cd
