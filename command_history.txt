@@ -426,3 +426,7 @@ vi authorized_keys
 exit
 cd .ssh
 ls authorized_keys 
+vi authorized_keys 
+sudo service sshd restart
+exit
+history
