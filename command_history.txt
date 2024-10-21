@@ -424,3 +424,5 @@ cd .ssh
 ls
 vi authorized_keys 
 exit
+cd .ssh
+ls authorized_keys 
