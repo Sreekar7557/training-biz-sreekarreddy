@@ -417,3 +417,4 @@ find -type f -name "*.sh" | chown ec2-user:sreekar
 find -type f -name "*.sh" | chown ec2-user:sreekar {}
 sudo su
 exit
+sudo su
