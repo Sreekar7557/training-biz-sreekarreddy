@@ -419,3 +419,8 @@ sudo su
 exit
 sudo su
 sudo su -
+ls -l
+cd .ssh
+ls
+vi authorized_keys 
+exit
