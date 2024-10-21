@@ -412,3 +412,8 @@ find -type f -name "*.log" -print0 | zip all_files.zip -@
 cat all_files.zip 
 find -type f -name "*.sh"
 find -type f -name "*.sh" -exec chown user:group {} \;
+find -type f -name "*.sh" -exec chown ec2-user:sreekar {} \;
+find -type f -name "*.sh" | chown ec2-user:sreekar
+find -type f -name "*.sh" | chown ec2-user:sreekar {}
+sudo su
+exit
